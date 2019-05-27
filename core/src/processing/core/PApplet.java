@@ -4016,6 +4016,7 @@ public class PApplet extends Object implements ActivityAPI, PConstants {
 
   public PImage loadImage(String filename) { //, Object params) {
 //    return loadImage(filename, null);
+    println("Debug: Loading "+filename);
     InputStream stream = createInput(filename);
     if (stream == null) {
       System.err.println("Could not find the image " + filename + ".");

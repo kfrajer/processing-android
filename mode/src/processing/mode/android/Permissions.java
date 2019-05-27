@@ -119,7 +119,7 @@ public class Permissions extends JFrame {
 
     String labelText =
       "<html>" +
-      "Android applications must specifically ask for permission\n" +
+      "DEBUG: Android applications must specifically ask for permission\n" +
       "to do things like connect to the internet, write a file,\n" +
       "or make phone calls. When installing your application,\n" +
       "users will be asked whether they want to allow such access.</html>";
